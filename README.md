@@ -4,7 +4,7 @@
 ## Overview
 
 Kavehnegar SMS and Call (https://kavenegar.com) SDK is a .NET library designed to interact with the Kavehnegar SMS and Call center services. This redesigned version improves upon the original by providing a cleaner codebase, utilizing built-in .NET utilities, supporting advanced lookup functionalities, and enhancing performance.
-
+official SDK :https://github.com/kavenegar/Kavenegar.Core
 ## Features
 
 - Clean and readable C# code
