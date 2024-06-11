@@ -20,7 +20,7 @@ Kavehnegar SMS and Call (https://kavenegar.com) SDK is a .NET library designed t
 To install the SDK, you can use the NuGet package manager:
 
 ```bash
-dotnet add package Neovortex.Kavehnegar
+dotnet add package Neovortex.KavehNegar --version 0.0.1
 ```
 
 ## Usage
