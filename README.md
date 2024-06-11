@@ -97,5 +97,7 @@ The next step is to add support for the Config API, which will allow users to co
 
 To improve exception management, the SDK will be updated to use strongly typed exceptions. This will help users to handle errors more effectively and understand the issues more clearly.
 
-### 3. Add Unit Tests for SDK
+
+### 3. Add Cancelation Token Support Accross the SDK
+### 4. Add Unit Tests for SDK
 After all all softwares must have tests right?! :)
