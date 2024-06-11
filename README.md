@@ -100,4 +100,4 @@ To improve exception management, the SDK will be updated to use strongly typed e
 
 ### 3. Add Cancelation Token Support Accross the SDK
 ### 4. Add Unit Tests for SDK
-After all all softwares must have tests right?! :)
+After all  softwares must have tests right?! :)
