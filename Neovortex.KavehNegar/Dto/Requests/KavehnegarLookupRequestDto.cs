@@ -13,7 +13,7 @@ public class KavehnegarLookupRequestDto : IKavehNegarRequest
 
     public required string TemplateName { get; set; }
 
-    public MessageType? MessageType { get; set; }
+    public LookupMessageType? MessageType { get; set; }
 
 
     public Dictionary<string, string> ConvertToDictionary()
@@ -23,7 +23,7 @@ public class KavehnegarLookupRequestDto : IKavehNegarRequest
             { "receptor", Receptor },
             { "template", TemplateName }
         };
-        if (MessageType != null) result.Add("type", ((int)MessageType).ToString());
+        if (MessageType != null) result.Add("type", (MessageType.ToString()));
         for (var i = 0; i < Tokens.Length; i++)
             result.Add($"token{(i == 0 ? string.Empty : i)}", Tokens[i].ReplaceSpacesAndTabsWithThinSpace());
         return result;

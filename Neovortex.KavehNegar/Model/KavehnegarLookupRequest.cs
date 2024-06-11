@@ -4,7 +4,7 @@ namespace Neovortex.KavehNegar.Model;
 
 public class KavehnegarLookupRequest
 {
-    public KavehnegarLookupRequest(Number receptor, string templateName, MessageType? type = null,
+    public KavehnegarLookupRequest(Number receptor, string templateName, LookupMessageType? type = null,
         params string[] token)
     {
         Receptor = receptor;
@@ -23,5 +23,5 @@ public class KavehnegarLookupRequest
 
     public required string TemplateName { get; set; }
 
-    public MessageType? MessageType { get; private set; }
+    public LookupMessageType? MessageType { get; private set; }
 }
