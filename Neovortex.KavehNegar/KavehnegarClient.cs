@@ -38,6 +38,10 @@ public class KavehnegarClient
     }
 
 
+    public KavehnegarClient()
+    {
+    }
+
     public async Task<DateTime> GetServerTime()
     {
         var result = await _retryableRequest.Invoke(async () =>
