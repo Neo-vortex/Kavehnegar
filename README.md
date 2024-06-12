@@ -21,7 +21,7 @@ official SDK :https://github.com/kavenegar/Kavenegar.Core
 To install the SDK, you can use the NuGet package manager:
 
 ```bash
-dotnet add package Neovortex.KavehNegar --version 0.0.1
+dotnet add package Neovortex.KavehNegar
 ```
 
 ## Usage
